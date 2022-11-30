@@ -1,1 +1,1 @@
-Betty in my first directory
+bye bye betty
