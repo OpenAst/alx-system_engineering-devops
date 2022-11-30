@@ -1,1 +1,1 @@
-go previous directory
+list them all
