@@ -1,1 +1,1 @@
-14. Copy HTML files
+Copy html files
