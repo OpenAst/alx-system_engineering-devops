@@ -1,1 +1,1 @@
-Copy html files
+move them all
