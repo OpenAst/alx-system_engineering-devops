@@ -1,1 +1,1 @@
-bye bye betty
+delete betty
