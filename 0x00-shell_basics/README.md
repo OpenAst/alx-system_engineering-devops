@@ -1,1 +1,1 @@
- to print the current directory
+ What’s in there?
