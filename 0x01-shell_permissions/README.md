@@ -1,1 +1,1 @@
-to give execute permission to the user
+6. Multiple permissions
