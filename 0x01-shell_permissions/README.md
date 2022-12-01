@@ -1,1 +1,1 @@
-for everybody
+permissions restricted
