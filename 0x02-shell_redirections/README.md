@@ -1,1 +1,1 @@
-display first 10
+display the third line of the file iacta
