@@ -1,1 +1,1 @@
-display all users and home
+a script that displays all users and home directories
