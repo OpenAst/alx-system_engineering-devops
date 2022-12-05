@@ -1,1 +1,1 @@
-I hate bins
+display all the lines that does no contain
