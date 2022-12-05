@@ -1,1 +1,1 @@
-delete all files with .js extension
+make your directories count
