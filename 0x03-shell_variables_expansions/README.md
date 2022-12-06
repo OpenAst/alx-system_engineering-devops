@@ -1,1 +1,1 @@
-create hello user
+the path to success
