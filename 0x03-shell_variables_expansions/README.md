@@ -1,1 +1,1 @@
-create alias
+create hello user
