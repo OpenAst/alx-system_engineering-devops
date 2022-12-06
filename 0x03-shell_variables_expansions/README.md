@@ -1,1 +1,1 @@
-everyone is a proponent of strong encryption
+paste all the lines from the input
