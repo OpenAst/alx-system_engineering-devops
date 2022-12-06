@@ -1,1 +1,1 @@
-7. It is a good file that cuts iron without making a noise
+a command that finds all empty files and directories in the current directory and all sub-directories.
