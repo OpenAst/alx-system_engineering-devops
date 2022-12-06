@@ -1,1 +1,1 @@
-a new local variable
+true knowledge
