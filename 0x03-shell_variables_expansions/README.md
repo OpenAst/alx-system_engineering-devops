@@ -1,1 +1,1 @@
-a script that prints the possible combinations
+print float
