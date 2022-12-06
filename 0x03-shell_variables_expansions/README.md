@@ -1,1 +1,1 @@
-convert base 10 to base 16
+everyone is a proponent of strong encryption
