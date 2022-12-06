@@ -1,1 +1,1 @@
-stir and mix
+global variable
