@@ -1,3 +1,13 @@
 #!/usr/bin/env bash
 # Runs whoami command as the user provided in argument
-sudo -u "$1" whoami
+
+if [$# -eq 0 ]; then
+	echo "Usage: $0 <usernme>"
+	exit 1
+fi
+
+if id "$1" &>/dev/null; then
+	sudo -u "$1" whoami
+else
+	echo "User $1 not found"
+fi
