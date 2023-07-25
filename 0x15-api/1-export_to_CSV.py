@@ -1,10 +1,17 @@
 #!/usr/bin/python3
-"""Export API data to CSV"""
+"""
+Export API data to CSV
+"""
+
 import csv
 import requests
 import sys
 
 def export_to_csv(user):
+    """
+    function to export to a csv file
+    """
+
     url_user = 'https://jsonplaceholder.typicode.com/users/' + user
     res = requests.get(url_user)
     user_name = res.json().get('username')
