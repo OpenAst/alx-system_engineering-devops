@@ -1,19 +1,14 @@
 #!/usr/bin/python3
-"""
-Export API data to CSV
-"""
-
+""" Export api to csv"""
 import csv
 import requests
 import sys
 
-def export_to_csv(user):
-    """
-    function to export to a csv file
-    """
-
+if __name__ == '__main__':
+    user = sys.argv[1]
     url_user = 'https://jsonplaceholder.typicode.com/users/' + user
     res = requests.get(url_user)
+    """ANYTHING"""
     user_name = res.json().get('username')
     task = url_user + '/todos'
     res = requests.get(task)
@@ -22,15 +17,8 @@ def export_to_csv(user):
     with open('{}.csv'.format(user), 'w') as csvfile:
         for task in tasks:
             completed = task.get('completed')
+            """Complete"""
             title_task = task.get('title')
+            """Done"""
             csvfile.write('"{}","{}","{}","{}"\n'.format(
                 user, user_name, completed, title_task))
-
-if __name__ == '__main__':
-    if len(sys.argv) != 2:
-        print("Usage: python script_name.py <user_id>")
-        sys.exit(1)
-
-    user = sys.argv[1]
-    export_to_csv(user)
-
